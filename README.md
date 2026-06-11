@@ -106,6 +106,7 @@ Este repositório possui finalidade educacional e foi criado para fins de estudo
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Enzo Oliveira**.
+@devbyenzo
 
-GitHub: :contentReference[oaicite:0]{index=0}
+- GitHub: https://github.com/devbyenzo
+- LinkedIn: https://www.linkedin.com/in/devbyenzo/
