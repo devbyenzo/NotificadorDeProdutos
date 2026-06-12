@@ -1,0 +1,159 @@
+{
+  "config": {
+    "intervalo_minutos": 30,
+    "titulo_bot": "💰 Monitor de Preços",
+    "emoji_alerta": "🔥",
+    "emoji_alto": "📈",
+    "notificar_preco_alto": false,
+    "silencioso": false,
+    "botao_comprar": true,
+    "headless": true,
+    "timeout_pagina": 15
+  },
+  "produtos": [
+    {
+      "id": "echo-dot-4",
+      "nome": "Echo Dot 4ª Geração",
+      "categoria": "Smart Home",
+      "emoji": "🔊",
+      "url": "https://www.amazon.com.br/Echo-Dot-4%C2%AA-gera%C3%A7%C3%A3o-Cor-Azul/dp/B09B8QFYZ2",
+      "valor_desejado": 450,
+      "ativo": true
+    },
+    {
+      "id": "insta360",
+      "nome": "Insta360 Action Camera",
+      "categoria": "Câmera",
+      "emoji": "📷",
+      "url": "https://www.amazon.com.br/Insta360-desempenho-aprimorado-atualizadas-substitu%C3%ADveis/dp/B0F3P4G8SY",
+      "valor_desejado": 3200,
+      "ativo": true
+    },
+    {
+      "id": "samsung-galaxy-128",
+      "nome": "Samsung Galaxy 128GB Preto",
+      "categoria": "Smartphone",
+      "emoji": "📱",
+      "url": "https://www.amazon.com.br/Celular-Samsung-Galaxy-128GB-Preto/dp/B0FPJ52LSR/ref=sr_1_4",
+      "valor_desejado": 1000,
+      "ativo": true
+    },
+    {
+      "id": "espada-heman",
+      "nome": "Espada do He Man",
+      "categoria": "Brinquedos",
+      "emoji": "🧸",
+      "url": "https://www.amazon.com.br/Universe-Brinquedo-Vibra%C3%A7%C3%B5es-Realistas-Inspirado/dp/B0FW3Y3LPP/ref=sr_1_3",
+      "valor_desejado": 470,
+      "ativo": true
+    },
+    {
+        "id": "sendai-kitetsu",
+        "nome": "Sendai Kitetsu",
+        "categoria": "Brinquedos",
+        "emoji": "🧸",
+        "url": "https://www.amazon.com.br/Espada-Katana-Roronoa-Sandai-Kitetsu/dp/B0CQMJB24N/ref=sr_1_4",
+        "valor_desejado": 200,
+        "ativo": true
+    },
+        {
+        "id": "yubashiri",
+        "nome": "Yubashiri",
+        "categoria": "Brinquedos",
+        "emoji": "🧸",
+        "url": "https://www.amazon.com.br/Espada-Katana-Cosplay-Roronoa-Yubashiri/dp/B0CZSC9H3Q/ref=sr_1_5",
+        "valor_desejado": 200,
+        "ativo": true
+    },
+        {
+        "id": "espada-law",
+        "nome": "KoKo",
+        "categoria": "Brinquedos",
+        "emoji": "🧸",
+        "url": "https://www.amazon.com.br/Espada-Bambu-Trafalgar-Pirate-Captain/dp/B0DN32TQHT/ref=sr_1_12",
+        "valor_desejado": 200,
+        "ativo": true
+    },
+        {
+        "id": "wado-ichimoji",
+        "nome": "Wado Ichimoji",
+        "categoria": "Brinquedos",
+        "emoji": "🧸",
+        "url": "https://www.amazon.com.br/Espada-Katana-Cosplay-Bambu-Branco/dp/B0GT5X6XH6/ref=sr_1_11",
+        "valor_desejado": 200,
+        "ativo": true
+    },
+        {
+        "id": "capa-yaris",
+        "nome": "Capa Chave Canivete Yaris",
+        "categoria": "Brinquedos",
+        "emoji": "🧸",
+        "url": "https://www.mercadolivre.com.br/capa-de-chave-presenca-toyota-yaris-2019-acessorio-tpu-slim/up/MLBU3232343032?pdp_filters=item_id:MLB5424507160#is_advertising=true&searchVariation=MLBU3232343032&backend_model=search-backend&be_origin=backend&position=3&search_layout=grid&type=pad&tracking_id=900b1c72-0a5a-4b6b-9e36-59c134a86122&ad_domain=VQCATCORE_LST&ad_position=3&ad_click_id=OThlODg2NTktMWM1Zi00OTdiLWFkZmYtZWYxYmEzMDNlZGU3",
+        "valor_desejado": 85,
+        "ativo": true
+    },
+        {
+        "id": "bola-copa",
+        "nome": "Bola Copa do Mundo 2026",
+        "categoria": "Brinquedos",
+        "emoji": "🧸",
+        "url": "https://www.amazon.com.br/Adidas-Campo-Trionda-Mundo-Branco/dp/B0FCSCRXTV/ref=sr_1_6",
+        "valor_desejado": 210,
+        "ativo": true
+    },
+        {
+        "id": "ipad-air-11",
+        "nome": "iPad Air 11",
+        "categoria": "Tablet",
+        "emoji": "💻",
+        "url": "https://www.amazon.com.br/Apple-2025-polegadas-Wi-Fi-Cellular/dp/B0DZJZ65Q8",
+        "valor_desejado": 10000,
+        "ativo": true
+    },
+      {
+        "id": "iphone-15",
+        "nome": "iPhone 15",
+        "categoria": "Smartphone",
+        "emoji": "📱",
+        "url": "https://www.amazon.com.br/dp/B0CP6CJ8JG",
+        "valor_desejado": 4500,
+        "ativo": true
+      },
+       {
+        "id": "mesa-pc",
+        "nome": "Mesa Industrial PC",
+        "categoria": "Computador",
+        "emoji": "💻",
+        "url": "https://www.mercadolivre.com.br/mesa-de-computador-escrivaninha-preta-pe-metalon-industrial-120x60-jm3-moveis/p/MLB29873777#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=31c513f2-e005-459a-8ef2-4eae14ff6117&wid=MLB6229054532&sid=search",
+        "valor_desejado": 200,
+        "ativo": true
+       },
+        {
+          "id": "iphone-13",
+          "nome": "iPhone 13",
+          "categoria": "Smartphone",
+          "emoji": "📱",
+          "url": "https://www.magazineluiza.com.br/usado-iphone-13-128gb-preto-muito-bom-trocafy-apple/p/afdj838a0j/te/ip13/?seller_id=trocafy",
+          "valor_desejado": 2300,
+          "ativo": true
+        },
+         {
+          "id": "iphone-15+carregador",
+          "nome": "iPhone 15 + Carregador",
+          "categoria": "Smartphone",
+          "emoji": "📱",
+          "url": "https://www.magazineluiza.com.br/smartphone-apple-iphone-15-128gb-preto-5g-carregador-apple-usb-c-20w-original/p/239228000/te/ip12/?seller_id=magazineluiza",
+          "valor_desejado": 4500,
+          "ativo": true
+         },
+          {
+            "id": "ssd-nvme-sandisk",
+            "nome": "SSD NVMe Sandisk",
+            "categoria": "HDD",
+            "emoji": "💾",
+            "url": "https://www.kabum.com.br/produto/510894/ssd-sandisk-pc-sn350-250gb-pcie-nvme-leitura-2400mb-s-e-gravacao-1500mb-s-preto-wds250g2g0c",
+            "valor_desejado": 470,
+            "ativo": true
+          }
+  ]
+}
