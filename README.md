@@ -1,41 +1,43 @@
 # RaspagemEnv
 
-Aplicação desenvolvida em Python para estudos de automação, raspagem de dados e utilização de variáveis de ambiente para gerenciamento seguro de configurações e credenciais.
+Sistema de automação desenvolvido em Python para processamento e distribuição periódica de informações de produtos através de integração com APIs de mensageria.
 
-## 📖 Sobre o Projeto
+## Overview
 
-O objetivo deste projeto é demonstrar a implementação de scripts Python que realizam operações de coleta e processamento de dados, mantendo informações sensíveis fora do código-fonte através do uso de arquivos `.env`.
+O projeto foi desenvolvido com foco em automação de tarefas, manipulação de dados estruturados e integração com serviços externos. A aplicação realiza a leitura de uma base de produtos em formato JSON, processa as informações e realiza envios automáticos para um destinatário configurado.
 
-Essa abordagem segue boas práticas de desenvolvimento, facilitando a manutenção, segurança e portabilidade da aplicação.
+As configurações sensíveis são armazenadas em variáveis de ambiente, seguindo boas práticas de segurança e desenvolvimento.
 
-## ✨ Funcionalidades
+## Features
 
-- Configuração por variáveis de ambiente
-- Estrutura simples e organizada
-- Separação de dados sensíveis do código
-- Base para estudos de automação e integração
-- Fácil expansão para novos recursos
+* Leitura de produtos através de arquivos JSON
+* Configuração via variáveis de ambiente (.env)
+* Envio automatizado de mensagens
+* Processamento periódico de dados
+* Estrutura modular e extensível
+* Gerenciamento seguro de credenciais
+* Fácil adaptação para diferentes provedores de mensagens
 
-## 🛠️ Tecnologias Utilizadas
+## Technologies
 
-- Python 3.x
-- python-dotenv
-- Requests
-- Ambiente Virtual (venv)
+* Python 3.10+
+* JSON
+* Requests
+* Python Dotenv
 
-## 📂 Estrutura do Projeto
+## Project Structure
 
 ```text
 RaspagemEnv/
-│
 ├── main.py
+├── produtos.json
 ├── .env
-├── .gitignore
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
-## 🚀 Instalação
+## Installation
 
 Clone o repositório:
 
@@ -63,7 +65,7 @@ Ative o ambiente virtual:
 venv\Scripts\activate
 ```
 
-### Linux/macOS
+### Linux / macOS
 
 ```bash
 source venv/bin/activate
@@ -75,37 +77,45 @@ Instale as dependências:
 pip install -r requirements.txt
 ```
 
-## ⚙️ Configuração
+## Environment Variables
 
 Crie um arquivo `.env` na raiz do projeto:
 
 ```env
-API_KEY=sua_chave_aqui
-TOKEN=seu_token_aqui
+BOT_TOKEN=your_bot_token
+CHAT_ID=your_chat_id
 ```
 
-## ▶️ Execução
+## Example Product Structure
+
+```json
+[
+  {
+    "name": "Example Product",
+    "price": 199.90,
+    "url": "https://example.com/product"
+  }
+]
+```
+
+## Running
 
 ```bash
 python main.py
 ```
 
-## 🎯 Objetivo de Aprendizado
+## Use Cases
 
-Este projeto foi desenvolvido com foco em:
+* Monitoramento de produtos
+* Alertas automatizados
+* Distribuição de informações em grupos ou chats
+* Estudos de automação e integração com APIs
+* Processamento de dados estruturados
 
-- Manipulação de variáveis de ambiente
-- Boas práticas de segurança
-- Estruturação de aplicações Python
-- Automação de tarefas
-- Consumo e processamento de dados
+## Security
 
-## 📌 Observação
+Informações sensíveis devem ser armazenadas exclusivamente através de variáveis de ambiente. O arquivo `.env` não deve ser versionado ou compartilhado publicamente.
 
-Este repositório possui finalidade educacional e foi criado para fins de estudo e aperfeiçoamento técnico.
+## License
 
-## 👨‍💻 Autor
-
-Desenvolvido por **Enzo Oliveira**.
-
-GitHub: :contentReference[oaicite:0]{index=0}
+This project is available for educational and learning purposes.
